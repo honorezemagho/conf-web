@@ -1,0 +1,48 @@
+.navbar {
+    text-decoration: none;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spaceb {
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    color: white;
+    list-style-type: none;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.grid>* {
+    flex: 0 0 25%;
+}
+
+.grid-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fs {
+    flex-direction: row;
+    float: right;
+}
+
+.fe {
+    flex-direction: row;
+    float: left;
+    padding-top: 5px;
+}
